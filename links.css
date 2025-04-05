@@ -1,0 +1,50 @@
+.faq {
+    background: #fff;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: 'REM', sans-serif;
+    margin: 10px;
+  }
+  
+  #task1 {
+    width: 100%;
+    display: grid;
+    gap: 10px;
+    padding: 20px;
+  }
+  
+  @media (min-width: 451px) and (max-width: 768px) {
+    #task1 {
+      grid-template-columns: repeat(4,1fr);
+      width: 100%;
+    }
+
+  }
+  
+
+  @media (min-width: 769px) and (max-width: 1024px) {
+    #task1 {
+      grid-template-columns: repeat(4, 1fr);
+    }
+    .faq{
+        width: 100%;
+    }
+  }
+  
+  @media (min-width: 1025px) {
+    #task1 {
+      grid-template-columns: repeat(4, 1fr);
+      width: 100%;
+    }
+    .faq{
+        width: 100%;
+    }
+  }
+  @media (min-width:0px) and (max-width: 450px) {
+    #task1 {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+    
